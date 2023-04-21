@@ -1,0 +1,136 @@
+/* Mobile */
+@media (min-width: 768px){
+    /* Insert Mobile Specific CSS Here*/
+    }
+    
+    /* Global */
+    :root {
+      --background-color1: white;
+      --background-color2: black;
+      --heading-color1: black;
+      --link-color1: rgba(127,0,255,1);
+      --link-color1-hover: rgba(128,255,0,1);
+      --text-color1: black;
+      --text-color2: black;
+    }
+    
+    * {
+      background-color: var(--background-color1);
+    }
+    
+    body {
+      padding-top: 10px;
+    }
+    
+    h1 {
+      font-family: sans-serif;
+      font-weight: 600;
+      font-size: 20px;
+      color: var(--heading-color1);
+      text-decoration: none;
+      text-align: left;
+    }
+    
+    h2 {
+      font-family: sans-serif;
+      font-weight: 600;
+      font-size: 18px;
+      color: var(--heading-color1);
+      text-decoration: none;
+    }
+    
+    p {
+      font-family: sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      color: var(--text-color1);
+      text-decoration: none;
+    }
+    
+    /* Nav Bar */
+    .navbar {
+      position: fixed;
+      min-width: 290px;
+      width: 300px;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background-color: var(--background-color2);
+    }
+    
+    nav {
+      background-color: var(--background-color2);
+    }
+    
+    .logo-text {
+      font-family: sans-serif;
+      font-weight: 600;
+      font-size: 24px;
+      color: #fff;
+      text-decoration: none;
+      text-align: center;
+      background-color: var(--background-color2);
+      padding: 10px;
+    }
+    
+    .navbar ul {
+      background-color: var(--background-color2);
+      height: 90%;
+      padding: 0;
+      overflow-y: auto;
+      overflow-x: hidden;
+    }
+    
+    .navbar li {
+      position: relative;
+      width: 100%;
+      font-family: sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      color: var(--link-color1);
+      text-decoration: none;
+      list-style: none;
+      background-color: var(--background-color2);
+      padding: 10px;
+    }
+    
+    .navbar a {
+      font-family: sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      color: var(--link-color1);
+      text-decoration: none;
+      background-color: var(--background-color2);
+    }
+    
+    .nav-link {
+      list-style: none;
+      display: inline-block;
+      padding: 0px 20px;
+      transition: all 0.2s ease 0s;
+      background-color: var(--background-color2);
+    }
+    
+    .nav-link:hover {
+      color: var(--link-color1-hover);
+    }
+    
+    /* Page Sections */
+    section {
+      padding: 25px 5%;
+    }
+    
+    #main-doc {
+      position: absolute;
+      margin-left: 310px;
+    }
+    
+    section li {
+      margin: 10px 0px 0px 10px;
+      font-family: sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      color: var(--text-color1);
+      text-decoration: none;
+      list-style: number;
+    }
